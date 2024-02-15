@@ -1,0 +1,27 @@
+title: oduletter
+author: Matt Grau
+version: 1.0.0
+quarto-required: ">=1.4.0"
+contributes:
+  formats:
+    common:
+      date-format: long
+      date: today
+      mainfont: CMU Serif
+      sansfont: CMU Serif
+    pdf:
+      documentclass: letter
+      papersize: letter
+      geometry: margin=1in
+      colorlinks: true
+      include-in-header: header.tex
+      template-partials:
+        - partials/before-body.tex
+        - partials/after-body.tex
+        - partials/_address.tex
+        - partials/_sig.tex
+        - partials/_footer.tex
+      format-resources:
+        - signature.pdf
+        - logo.pdf
+
