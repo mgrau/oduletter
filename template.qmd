@@ -1,0 +1,23 @@
+---
+author:
+    name: Name
+    title: Professor
+    email: email@odu.edu
+    phone: (757) 123-456
+    affiliation:
+      - name: Old Dominion University
+        department: Department of
+        address: Hampton Blvd
+        city: Norfolk
+        state: VA
+        postal-code: 23529
+address:
+  - Some University
+  - Some Address
+  - Some Town, Some State Some Zip
+opening: Dear Application Committee,
+closing: Sincerely,
+format: oduletter-pdf
+---
+
+\lipsum[1-8]
