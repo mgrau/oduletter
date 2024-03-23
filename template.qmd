@@ -1,7 +1,7 @@
 ---
 author:
     name: Name
-    title: Professor
+    degrees: Professor
     email: email@odu.edu
     phone: (757) 123-456
     affiliation:
