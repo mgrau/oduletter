@@ -1,5 +1,5 @@
-\signature{ 
-\includegraphics[height=0.75in]{signature.pdf}\\
+\signature{%
+$if(signed)$\includegraphics[height=0.75in]{$if(signature-image)$$signature-image$$else$signature.pdf$endif$}$else$\rule{0pt}{0.75in}$endif$\\
 $author$\\
 ${ by-author:_sig.tex() }
 }
